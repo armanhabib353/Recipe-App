@@ -6,4 +6,12 @@
 //  Copyright © 2020 Arman Habib. All rights reserved.
 //
 
-import Foundation
+import SwiftUI
+
+// MARK:- Fact Data
+
+struct Fact: Identifiable {
+    var id = UUID()
+    var image: String
+    var content: String
+}
